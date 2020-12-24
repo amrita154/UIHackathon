@@ -28,7 +28,7 @@ import First from './src/screens/First';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Finish } from './src/screens/Finish';
-
+import codePush from 'react-native-code-push';
 const Stack = createStackNavigator();
 class App extends React.Component {
   render() {
@@ -44,4 +44,5 @@ class App extends React.Component {
     )
   }
 }
+App = codePush(App)
 export default App;
