@@ -3,6 +3,7 @@ import { View, Text, Image, StyleSheet, TextInput, TouchableOpacity, Animated } 
 import LinearGradient from 'react-native-linear-gradient';
 import { visueltProRegular, visueltProMedium } from './../utils/font';
 import { Easing } from 'react-native-reanimated';
+import { ScrollView } from 'react-native-gesture-handler';
 const IMAGES = [
     require('./../assets/images/leftContainer.png'),
     require('./../assets/images/nextButton.png'),
@@ -44,7 +45,7 @@ class LoginName extends React.Component {
     }
     render() {
         return (
-            <LinearGradient colors={['#F7F7F7', '#FFFFFF']} style={styles.container} locations={[0.5]}>
+            <LinearGradient colors={['#F7F7F7', '#FFFFFF']} style={styles.container} locations={[0.5, 1]}>
                 <View style={styles.leftContainer}>
                     <Animated.View>
                         <Text style={{ fontSize: 18, fontFamily: visueltProRegular, marginTop: 62, color: '#818181', marginLeft: 45 }}>Registration</Text>
@@ -133,15 +134,14 @@ class LoginName extends React.Component {
                     <View style={{ backgroundColor: '#A0B1A2', borderRadius: 5, width: 11, height: 11, marginTop: 170, marginLeft: -5 }}></View>
                     <View style={{ backgroundColor: '#A0B1A2', borderRadius: 5, width: 11, height: 11, marginTop: 174, marginLeft: -5 }}></View>
                     {
-                        <TouchableOpacity activeOpacity={0.7} onPress={() => { this.onClickNext() }}>
-                            <LinearGradient style={{ borderRadius: 50, width: 78, height: 78, marginTop: 129, marginLeft: -55, justifyContent: 'center', alignItems: 'center' }} colors={['#3023AE', '#53A0FD', '#6cb5ca', '#bcdcbc']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} locations={[0.1, 0.7, 1]} >
+                        <LinearGradient style={{ borderRadius: 50, width: 78, height: 78, marginTop: Platform.OS == 'ios' ? 129 : 80, marginLeft: -55, justifyContent: 'center', alignItems: 'center' }} colors={['#3023AE', '#53A0FD', '#6cb5ca', '#bcdcbc']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} locations={[0.1, 0.7, 1, 1]} >
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => { this.onClickNext() }}>
                                 <Image source={IMAGES[1]} style={{ height: 25, width: 25 }} />
-                            </LinearGradient>
-                        </TouchableOpacity>
+                            </TouchableOpacity>
+                        </LinearGradient>
                     }
                 </View>
             </LinearGradient>
-
         )
     }
 }

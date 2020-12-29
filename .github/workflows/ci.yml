@@ -1,12 +1,14 @@
 name: Build Android and iOS
 on:
-  push:
-    branches:
-      - codepush
+  workflow_dispatch:
+    inputs:
+      home:
+        description: "location"
+        required: true
 jobs:
   install-and-test:
     runs-on: macOS-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v2
       - name: Install npm dependencies
         run: |
@@ -14,17 +16,16 @@ jobs:
   build-android:
     needs: install-and-test
     runs-on: macOS-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v2
       - name: Install npm dependencies
         run: |
           npm install
       - name: Build Android Release
         run: |
-          cd android && ./gradlew assembleRelease -PMYAPP_UPLOAD_STORE_PASSWORD='${{ secrets.SAMPLE_SECRET }}' -PMYAPP_UPLOAD_KEY_PASSWORD='${{ secrets.SAMPLE_SECRET }}'
+          cd android && ./gradlew assembleDebug -PMYAPP_UPLOAD_STORE_PASSWORD='${{ secrets.SAMPLE_SECRET }}' -PMYAPP_UPLOAD_KEY_PASSWORD='${{ secrets.SAMPLE_SECRET }}'
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
-          name: app-release.apk
-          path: android/app/build/outputs/apk/release/
- 
+          name: app-debug.apk
+          path: android/app/build/outputs/apk/debug/

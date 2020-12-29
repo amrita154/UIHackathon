@@ -7,6 +7,7 @@ import JobInfo from './JobInfo';
 import WeightHeight from './WeightHeight';
 import AgeInterest from './AgeInterest';
 import { Finish } from './Finish';
+import { ScrollView } from 'react-native-gesture-handler';
 
 class First extends React.Component {
     constructor(props) {
