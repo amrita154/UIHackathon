@@ -15,6 +15,10 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install npm dependencies
+        run: |
+          npm install
+      - uses: actions/checkout@v2
       - name: Build Android Release
         run: |
           cd android && ./gradlew assembleDebug -PMYAPP_UPLOAD_STORE_PASSWORD='${{ secrets.SAMPLE_SECRET }}' -PMYAPP_UPLOAD_KEY_PASSWORD='${{ secrets.SAMPLE_SECRET }}'
@@ -27,6 +31,10 @@ jobs:
     needs: install-and-test
     runs-on: macOS-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: Install npm dependencies
+        run: |
+          npm install
       - uses: actions/checkout@v2
       - name: Install pod dependencies
         run: |
