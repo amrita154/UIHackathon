@@ -26,3 +26,24 @@ jobs:
         with:
           name: app-debug.apk
           path: android/app/build/outputs/apk/debug/
+  build-ios:
+    needs: install-and-test
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install npm dependencies
+        run: |
+          npm install
+      - name: Install pod dependencies
+        run: |
+          cd ios && pod install
+      - name: Build app
+        run: |
+          xcodebuild -workspace loginApp.xcworkspace -scheme loginApp archive -archivePath loginApp.xcarchive -allowProvisioningUpdates
+          xcodebuild -exportArchive -archivePath ./loginApp.xcarchive -exportPath . -exportOptionsPlist loginApp/Info.plist
+          mv loginApp.ipa ../loginApp.ipa
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: loginAppp.ipa
+          path: ios/build/

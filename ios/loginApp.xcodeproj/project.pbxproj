@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* loginAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* loginAppTests.m */; };
+		0EA93E2E9D2141CFB9C1AF58 /* VisueltPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2A20EDCEF714F9DBA0D27AE /* VisueltPro-ExtraLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18C3F554AAF9454C9BC78025 /* VisueltPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00239C39DE954A76A357321F /* VisueltPro-ExtraLightItalic.ttf */; };
+		1F59F33DF19A402296CF685C /* VisueltPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C0C3B0BB0034EC7ACA72992 /* VisueltPro-Italic.ttf */; };
+		22341613CE8A4D20A33A1135 /* VisueltPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5599593F0DA4CFBA819BA00 /* VisueltPro-Light.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* loginAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* loginAppTests.m */; };
+		37AFF2A867A946FAA22FF48A /* VisueltPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54C4246A1F6747BB8A41EB75 /* VisueltPro-Medium.ttf */; };
 		38E641F818FEF12F92F984AB /* libPods-loginApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926C42BD3EB4929A9BBE23C7 /* libPods-loginApp-tvOSTests.a */; };
 		47BB5D59A8E6F2AEC475040E /* libPods-loginApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97091101BC341F3206CC4E05 /* libPods-loginApp.a */; };
+		4A1E46574D8344C4B9E77AAD /* VisueltPro-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2898184CB334282AEA53885 /* VisueltPro-ThinItalic.ttf */; };
+		53B4B8733B4547029F0E376B /* VisueltPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A67519C305E40E4B33544DF /* VisueltPro-LightItalic.ttf */; };
+		5A1D54C45B1347D6913D52A3 /* VisueltPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9B2D1FD26447EB5F27737 /* VisueltPro-Bold.ttf */; };
+		770380DC8197451BB67D9A75 /* VisueltPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF23FAEE83224393B7EE8DE4 /* VisueltPro-MediumItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		D5C85B612EF2ED126C10A84D /* libPods-loginApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29645001D1C864C65EBEC30 /* libPods-loginApp-tvOS.a */; };
-		E23B32E9A64567EEA3729C92 /* libPods-loginApp-loginAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445F490546BC21C53CC2B7FE /* libPods-loginApp-loginAppTests.a */; };
+		87E710C2D6124E0EB871B3B8 /* VisueltPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1A210724064411AAAC06934 /* VisueltPro-Regular.ttf */; };
+		98C221615DC949B492A92585 /* VisueltPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D322051EEE3C4EC1B59D883E /* VisueltPro-BoldItalic.ttf */; };
+		9DD3EC10B83D4848ABCEBD6B /* VisueltPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E99978E1D064CC480A1F8A3 /* VisueltPro-Thin.ttf */; };
 		A38D281FA23F4291A48FCD97 /* VisueltPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7191671654E44B1C97023DEF /* VisueltPro-Black.ttf */; };
 		A48EA1252ED34304AE6D257C /* VisueltPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74E9D864FEB54159AFD7080C /* VisueltPro-BlackItalic.ttf */; };
-		5A1D54C45B1347D6913D52A3 /* VisueltPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9B2D1FD26447EB5F27737 /* VisueltPro-Bold.ttf */; };
-		98C221615DC949B492A92585 /* VisueltPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D322051EEE3C4EC1B59D883E /* VisueltPro-BoldItalic.ttf */; };
-		0EA93E2E9D2141CFB9C1AF58 /* VisueltPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2A20EDCEF714F9DBA0D27AE /* VisueltPro-ExtraLight.ttf */; };
-		18C3F554AAF9454C9BC78025 /* VisueltPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00239C39DE954A76A357321F /* VisueltPro-ExtraLightItalic.ttf */; };
-		1F59F33DF19A402296CF685C /* VisueltPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C0C3B0BB0034EC7ACA72992 /* VisueltPro-Italic.ttf */; };
-		22341613CE8A4D20A33A1135 /* VisueltPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5599593F0DA4CFBA819BA00 /* VisueltPro-Light.ttf */; };
-		53B4B8733B4547029F0E376B /* VisueltPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A67519C305E40E4B33544DF /* VisueltPro-LightItalic.ttf */; };
-		37AFF2A867A946FAA22FF48A /* VisueltPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54C4246A1F6747BB8A41EB75 /* VisueltPro-Medium.ttf */; };
-		770380DC8197451BB67D9A75 /* VisueltPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF23FAEE83224393B7EE8DE4 /* VisueltPro-MediumItalic.ttf */; };
-		87E710C2D6124E0EB871B3B8 /* VisueltPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1A210724064411AAAC06934 /* VisueltPro-Regular.ttf */; };
-		9DD3EC10B83D4848ABCEBD6B /* VisueltPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E99978E1D064CC480A1F8A3 /* VisueltPro-Thin.ttf */; };
-		4A1E46574D8344C4B9E77AAD /* VisueltPro-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2898184CB334282AEA53885 /* VisueltPro-ThinItalic.ttf */; };
+		D5C85B612EF2ED126C10A84D /* libPods-loginApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29645001D1C864C65EBEC30 /* libPods-loginApp-tvOS.a */; };
+		E23B32E9A64567EEA3729C92 /* libPods-loginApp-loginAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445F490546BC21C53CC2B7FE /* libPods-loginApp-loginAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00239C39DE954A76A357321F /* VisueltPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-ExtraLightItalic.ttf"; path = "../src/assets/font/VisueltPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* loginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,33 +69,32 @@
 		214C3DEC9AF28AC81A287A6E /* Pods-loginApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-loginApp-tvOSTests/Pods-loginApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* loginApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "loginApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* loginApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "loginApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E99978E1D064CC480A1F8A3 /* VisueltPro-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Thin.ttf"; path = "../src/assets/font/VisueltPro-Thin.ttf"; sourceTree = "<group>"; };
 		427B75277F0748A1755EB62B /* Pods-loginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp.debug.xcconfig"; path = "Target Support Files/Pods-loginApp/Pods-loginApp.debug.xcconfig"; sourceTree = "<group>"; };
 		445F490546BC21C53CC2B7FE /* libPods-loginApp-loginAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loginApp-loginAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474E4F80E2E409FD1AD6C3C5 /* Pods-loginApp-loginAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp-loginAppTests.debug.xcconfig"; path = "Target Support Files/Pods-loginApp-loginAppTests/Pods-loginApp-loginAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54C4246A1F6747BB8A41EB75 /* VisueltPro-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Medium.ttf"; path = "../src/assets/font/VisueltPro-Medium.ttf"; sourceTree = "<group>"; };
+		5C0C3B0BB0034EC7ACA72992 /* VisueltPro-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Italic.ttf"; path = "../src/assets/font/VisueltPro-Italic.ttf"; sourceTree = "<group>"; };
 		5D67E4D8C57CF8579C6AD048 /* Pods-loginApp-loginAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp-loginAppTests.release.xcconfig"; path = "Target Support Files/Pods-loginApp-loginAppTests/Pods-loginApp-loginAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		64F045A76A9C8A5D46C57EB6 /* Pods-loginApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-loginApp-tvOSTests/Pods-loginApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7191671654E44B1C97023DEF /* VisueltPro-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Black.ttf"; path = "../src/assets/font/VisueltPro-Black.ttf"; sourceTree = "<group>"; };
+		74E9D864FEB54159AFD7080C /* VisueltPro-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-BlackItalic.ttf"; path = "../src/assets/font/VisueltPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7A67519C305E40E4B33544DF /* VisueltPro-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-LightItalic.ttf"; path = "../src/assets/font/VisueltPro-LightItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = loginApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926C42BD3EB4929A9BBE23C7 /* libPods-loginApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loginApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97091101BC341F3206CC4E05 /* libPods-loginApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loginApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA9B2D1FD26447EB5F27737 /* VisueltPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Bold.ttf"; path = "../src/assets/font/VisueltPro-Bold.ttf"; sourceTree = "<group>"; };
+		B2898184CB334282AEA53885 /* VisueltPro-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-ThinItalic.ttf"; path = "../src/assets/font/VisueltPro-ThinItalic.ttf"; sourceTree = "<group>"; };
 		BAD4D2C5DB7DD5DCA016DEFB /* Pods-loginApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-loginApp-tvOS/Pods-loginApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BF23FAEE83224393B7EE8DE4 /* VisueltPro-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-MediumItalic.ttf"; path = "../src/assets/font/VisueltPro-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C1A210724064411AAAC06934 /* VisueltPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Regular.ttf"; path = "../src/assets/font/VisueltPro-Regular.ttf"; sourceTree = "<group>"; };
+		C2A20EDCEF714F9DBA0D27AE /* VisueltPro-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-ExtraLight.ttf"; path = "../src/assets/font/VisueltPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D322051EEE3C4EC1B59D883E /* VisueltPro-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-BoldItalic.ttf"; path = "../src/assets/font/VisueltPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E5599593F0DA4CFBA819BA00 /* VisueltPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "VisueltPro-Light.ttf"; path = "../src/assets/font/VisueltPro-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F29645001D1C864C65EBEC30 /* libPods-loginApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loginApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9FFDCE4D6FBADFC59C0A5D /* Pods-loginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginApp.release.xcconfig"; path = "Target Support Files/Pods-loginApp/Pods-loginApp.release.xcconfig"; sourceTree = "<group>"; };
-		7191671654E44B1C97023DEF /* VisueltPro-Black.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Black.ttf"; path = "../src/assets/font/VisueltPro-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		74E9D864FEB54159AFD7080C /* VisueltPro-BlackItalic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-BlackItalic.ttf"; path = "../src/assets/font/VisueltPro-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9FA9B2D1FD26447EB5F27737 /* VisueltPro-Bold.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Bold.ttf"; path = "../src/assets/font/VisueltPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D322051EEE3C4EC1B59D883E /* VisueltPro-BoldItalic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-BoldItalic.ttf"; path = "../src/assets/font/VisueltPro-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C2A20EDCEF714F9DBA0D27AE /* VisueltPro-ExtraLight.ttf */ = {isa = PBXFileReference; name = "VisueltPro-ExtraLight.ttf"; path = "../src/assets/font/VisueltPro-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		00239C39DE954A76A357321F /* VisueltPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-ExtraLightItalic.ttf"; path = "../src/assets/font/VisueltPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5C0C3B0BB0034EC7ACA72992 /* VisueltPro-Italic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Italic.ttf"; path = "../src/assets/font/VisueltPro-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E5599593F0DA4CFBA819BA00 /* VisueltPro-Light.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Light.ttf"; path = "../src/assets/font/VisueltPro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7A67519C305E40E4B33544DF /* VisueltPro-LightItalic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-LightItalic.ttf"; path = "../src/assets/font/VisueltPro-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		54C4246A1F6747BB8A41EB75 /* VisueltPro-Medium.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Medium.ttf"; path = "../src/assets/font/VisueltPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BF23FAEE83224393B7EE8DE4 /* VisueltPro-MediumItalic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-MediumItalic.ttf"; path = "../src/assets/font/VisueltPro-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C1A210724064411AAAC06934 /* VisueltPro-Regular.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Regular.ttf"; path = "../src/assets/font/VisueltPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E99978E1D064CC480A1F8A3 /* VisueltPro-Thin.ttf */ = {isa = PBXFileReference; name = "VisueltPro-Thin.ttf"; path = "../src/assets/font/VisueltPro-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2898184CB334282AEA53885 /* VisueltPro-ThinItalic.ttf */ = {isa = PBXFileReference; name = "VisueltPro-ThinItalic.ttf"; path = "../src/assets/font/VisueltPro-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +150,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		013BDA9DC6CA42118C432337 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7191671654E44B1C97023DEF /* VisueltPro-Black.ttf */,
+				74E9D864FEB54159AFD7080C /* VisueltPro-BlackItalic.ttf */,
+				9FA9B2D1FD26447EB5F27737 /* VisueltPro-Bold.ttf */,
+				D322051EEE3C4EC1B59D883E /* VisueltPro-BoldItalic.ttf */,
+				C2A20EDCEF714F9DBA0D27AE /* VisueltPro-ExtraLight.ttf */,
+				00239C39DE954A76A357321F /* VisueltPro-ExtraLightItalic.ttf */,
+				5C0C3B0BB0034EC7ACA72992 /* VisueltPro-Italic.ttf */,
+				E5599593F0DA4CFBA819BA00 /* VisueltPro-Light.ttf */,
+				7A67519C305E40E4B33544DF /* VisueltPro-LightItalic.ttf */,
+				54C4246A1F6747BB8A41EB75 /* VisueltPro-Medium.ttf */,
+				BF23FAEE83224393B7EE8DE4 /* VisueltPro-MediumItalic.ttf */,
+				C1A210724064411AAAC06934 /* VisueltPro-Regular.ttf */,
+				2E99978E1D064CC480A1F8A3 /* VisueltPro-Thin.ttf */,
+				B2898184CB334282AEA53885 /* VisueltPro-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* loginApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +210,6 @@
 				214C3DEC9AF28AC81A287A6E /* Pods-loginApp-tvOSTests.debug.xcconfig */,
 				64F045A76A9C8A5D46C57EB6 /* Pods-loginApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -226,28 +246,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		013BDA9DC6CA42118C432337 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				7191671654E44B1C97023DEF /* VisueltPro-Black.ttf */,
-				74E9D864FEB54159AFD7080C /* VisueltPro-BlackItalic.ttf */,
-				9FA9B2D1FD26447EB5F27737 /* VisueltPro-Bold.ttf */,
-				D322051EEE3C4EC1B59D883E /* VisueltPro-BoldItalic.ttf */,
-				C2A20EDCEF714F9DBA0D27AE /* VisueltPro-ExtraLight.ttf */,
-				00239C39DE954A76A357321F /* VisueltPro-ExtraLightItalic.ttf */,
-				5C0C3B0BB0034EC7ACA72992 /* VisueltPro-Italic.ttf */,
-				E5599593F0DA4CFBA819BA00 /* VisueltPro-Light.ttf */,
-				7A67519C305E40E4B33544DF /* VisueltPro-LightItalic.ttf */,
-				54C4246A1F6747BB8A41EB75 /* VisueltPro-Medium.ttf */,
-				BF23FAEE83224393B7EE8DE4 /* VisueltPro-MediumItalic.ttf */,
-				C1A210724064411AAAC06934 /* VisueltPro-Regular.ttf */,
-				2E99978E1D064CC480A1F8A3 /* VisueltPro-Thin.ttf */,
-				B2898184CB334282AEA53885 /* VisueltPro-ThinItalic.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -345,6 +343,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2SWNCA8NN5;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -721,6 +720,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SWNCA8NN5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = loginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -744,6 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SWNCA8NN5;
 				INFOPLIST_FILE = loginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
