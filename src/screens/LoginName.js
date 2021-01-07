@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, TextInput, TouchableOpacity, Animated } from 'react-native';
+import { View, Text, Image, StyleSheet, TextInput, TouchableOpacity, Animated, Linking } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import { visueltProRegular, visueltProMedium } from './../utils/font';
 import { Easing } from 'react-native-reanimated';
@@ -37,6 +37,7 @@ class LoginName extends React.Component {
         }
     }
     onClickNext = async () => {
+        Linking.openURL('sample://')
         await this.validate();
         if (!this.state.isFirstNameEmpty && !this.state.isLastNameEmpty) {
             var data = [this.state.firstName, this.state.lastName]
