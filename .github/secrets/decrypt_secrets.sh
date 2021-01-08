@@ -9,7 +9,7 @@ cp ./.github/secrets/profile.mobileprovision ~/Library/MobileDevice/Provisioning
 
 
 security create-keychain -p "" ios-build.keychain
-security import ./.github/secrets/Certificates.p12 -t agg -k ~/Library/Keychains/ios-build.keychain -P "" -A
+security import ./.github/secrets/Certificates.p12 -t agg -k ~/Library/Keychains/ios-build.keychain -P "" -T
 
 security list-keychains -s ~/Library/Keychains/ios-build.keychain
 security default-keychain -s ~/Library/Keychains/ios-build.keychain
