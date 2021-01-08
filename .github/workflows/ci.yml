@@ -31,19 +31,37 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install gpg
+        run: brew install gnupg
       - name: Install npm dependencies
         run: |
           npm install
       - name: Install pod dependencies
         run: |
+          rm -rf ios/build
+          rm -rf ios/Pods ios/Podfile.lock
           cd ios && pod install
+      - name: Setup provisioning profile
+        run: ./.github/secrets/decrypt_secrets.sh
       - name: Build app
         run: |
-          xcodebuild -workspace ./ios/loginApp.xcworkspace -scheme loginApp archive -archivePath ./ios/loginApp.xcarchive -allowProvisioningUpdates
-          xcodebuild -exportArchive -archivePath ./ios/loginApp.xcarchive -exportPath . -exportOptionsPlist ./ios/loginApp/Info.plist
-          mv loginApp.ipa ./../loginApp.ipa
+          cd ios && xcodebuild archive \
+            -workspace loginApp.xcworkspace \
+            -scheme loginApp \
+            -configuration Release \
+            -archivePath $PWD/build/loginApp.xcarchive \
+            IPHONEOS_DEPLOYMENT_TARGET=9.0
+            PROVISIONING_PROFILE="b5bff837-9543-41fe-bd8a-de1255e11198" \
+            CODE_SIGN_IDENTITY="Apple Development: Ojas Amin (42S48NFX73)"
+      - name: Export app
+        run: |
+          cd ios && xcodebuild \
+            -exportArchive \
+            -archivePath $PWD/build/loginApp.xcarchive \
+            -exportOptionsPlist $PWD/loginApp/iosExportOptions.plist \
+            -exportPath $PWD/build
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
-          name: loginAppp.ipa
+          name: loginApp.ipa
           path: ios/build/

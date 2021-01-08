@@ -2,26 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
- <key>destination</key>
- <string>export</string>
- <key>method</key>
- <string>development</string>
- <key>provisioningProfiles</key>
- <dict>
-  <key>F8MP8FK54B.com.phritz.ios.v2</key>
-  <string>Phritz</string>
- </dict>
- <key>signingCertificate</key>
- <string>Apple Distribution: MyPhrame LLC</string>
- <key>signingStyle</key>
- <string>Automativ</string>
- <key>stripSwiftSymbols</key>
- <true/>
- <key>teamID</key>
- <string>F8MP8FK54B</string>
- <key>uploadBitcode</key>
- <true/>
- <key>uploadSymbols</key>
- <true/>
+	<key>compileBitcode</key>
+	<true/>
+	<key>provisioningProfiles</key>
+    <dict>
+        <key>*</key>
+        <string>b5bff837-9543-41fe-bd8a-de1255e11198</string>
+    </dict>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>development</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>F8MP8FK54B</string>
+	<key>thinning</key>
+	<string>&lt;thin-for-all-variants&gt;</string>
 </dict>
 </plist>
