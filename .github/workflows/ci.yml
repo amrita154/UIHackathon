@@ -3,29 +3,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  install-and-test:
-    runs-on: macOS-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Install npm dependencies
-        run: |
-          npm install
-  build-android:
-    needs: install-and-test
-    runs-on: macOS-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Install npm dependencies
-        run: |
-          npm install
-      - name: Build Android Release
-        run: |
-          cd android && ./gradlew assembleDebug -PMYAPP_UPLOAD_STORE_PASSWORD='${{ secrets.SAMPLE_SECRET }}' -PMYAPP_UPLOAD_KEY_PASSWORD='${{ secrets.SAMPLE_SECRET }}'
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: app-debug.apk
-          path: android/app/build/outputs/apk/debug/
   build-ios:
     needs: install-and-test
     runs-on: macOS-latest
@@ -51,7 +28,9 @@ jobs:
             -configuration Release \
             -archivePath $PWD/build/loginApp.xcarchive \
             IPHONEOS_DEPLOYMENT_TARGET=9.0
-            "OTHER_CODE_SIGN_FLAGS=--keychain '~/Library/Keychains/build.keychain'"
+            PROVISIONING_PROFILE="b5bff837-9543-41fe-bd8a-de1255e11198" \
+            CODE_SIGN_IDENTITY="Apple Development: Ojas Amin (42S48NFX73)"\
+            "OTHER_CODE_SIGN_FLAGS=--keychain '~Library/Keychains/build.keychain'"
       - name: Export app
         run: |
           cd ios && xcodebuild \
