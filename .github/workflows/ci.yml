@@ -51,8 +51,7 @@ jobs:
             -configuration Release \
             -archivePath $PWD/build/loginApp.xcarchive \
             IPHONEOS_DEPLOYMENT_TARGET=9.0
-            PROVISIONING_PROFILE="b5bff837-9543-41fe-bd8a-de1255e11198" \
-            CODE_SIGN_IDENTITY="Apple Development: Ojas Amin (42S48NFX73)"
+            "OTHER_CODE_SIGN_FLAGS=--keychain '~/Library/Keychains/build.keychain'"
       - name: Export app
         run: |
           cd ios && xcodebuild \
